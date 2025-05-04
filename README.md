@@ -1,5 +1,6 @@
 # Deber-01
-Algoritmo y logíistica
+Algoritmo y logística
+
 //Ejercicios-1
 
 
