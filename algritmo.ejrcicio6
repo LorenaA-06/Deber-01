@@ -1,0 +1,18 @@
+Algoritmo presentar_suma
+	// Ingresa dos números por teclado y sumarlos, si el número es negativo, cambiar su signo
+	Definir A, B, Suma como Enteros
+	Escribir "Ingresar 1er número"
+	Leer A
+	Escribir "Ingresar 2do número"
+	Leer B
+	Si A < 0 Entonces
+		Escribir "El 1er número era negativo. Se cambia su signo."
+		A <- -A
+	FinSi
+	Si B < 0 Entonces
+		Escribir "El 2do número era negativo. Se cambia su signo."
+		B <- -B
+	FinSi
+	Suma <- A + B
+	Escribir "La suma es:", Suma
+FinAlgoritmo

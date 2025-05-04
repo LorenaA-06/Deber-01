@@ -1,0 +1,17 @@
+Algoritmo presentar_mayor
+		//Pseudocodigo que muestra el número mayor ingreso por teclado y si son iguales muestre //el cartel "Son iguales"
+		Definir A, B, M como enteros 
+		Escribir "Ingresar 1er número"
+		Leer A
+		Escribir "Ingresar 2do número"
+		Leer B
+		Si A > B Entonces
+			M<-A
+		Sino
+			Si A = B Entonces
+				Escribir  M, "Son iguales "
+			Sino
+				M<-B
+			FinSi
+		FinSi
+Finalgoritmo 

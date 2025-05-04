@@ -1,0 +1,11 @@
+Algoritmo presentar_hipotenusa
+// Se ingresan por teclado los catetos de un triángulo rectángulo. Se desea hallar y mostrar //su hipotenusa.
+Definir cateto1, cateto2, hipotenusa como Real
+Escribir "Ingresar cateto 1"
+Leer cat1
+Escribir "Ingresar cateto 2"
+Leer cat2
+Hipotenusa <- raiz(cat1^2 + cat2^2)
+Escribir "La hipotenusa es:", hipotenusa
+FinAlgoritmo
+

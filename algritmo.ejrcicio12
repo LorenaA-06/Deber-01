@@ -1,0 +1,14 @@
+
+	Algoritmo presentar_par_impar
+		//Pseudocodigo en el que se ingresa un número natural por teclado. Se desea saber y mostrar si es par o impar.
+		Definir N, cociente, resultado como Entero
+		Escribir "Ingresa el número"
+		Leer N
+		Cociente <- N / 2
+		Resultado <- cociente * 2
+		Si resultado = N Entonces
+			Escribir "Número par"
+		Sino
+			Escribir "Número impar"
+		FinSi
+Finalgoritmo

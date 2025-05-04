@@ -1,0 +1,13 @@
+Algoritmo Verificar_si_socio_es_VIP
+		Definir categoria Como Caracter
+		Definir antiguedad Como Entero
+		Escribir "Ingrese la categoría del socio (A, B, C):"
+		Leer categoria
+		Escribir "Ingrese la antigüedad en años:"
+		Leer antiguedad
+		Si categoria = "A" O (antiguedad >= 10 Y antiguedad <= 20) Entonces
+			Escribir "Socio VIP"
+		Sino
+			Escribir "Socio regular"
+		Fin Si
+	FinAlgoritmo

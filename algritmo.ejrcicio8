@@ -1,0 +1,6 @@
+Algoritmo categoría_de_socio
+    Definir categoria Como Caracter
+    Escribir "Ingrese la categoría del socio (A, B, C):"
+    Leer categoria
+    Escribir "Categoría ingresada:", categoria
+FinAlgoritmo
